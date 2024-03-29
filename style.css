@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: 'jjk';
+    src: url(./font/Jujutsu\ Kaisen.ttf);
+}
+
+.header{
+    padding: 2rem;
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.menu a:hover{
+    color: goldenrod;
+    transition: 0.9s;
+}
+
+#sessao{
+    padding: 15rem;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(153,96,201,1) 93%);
+}
+
+#sessao h2{
+    font-size: 3em;
+    font-family: 'jjk';
+}
+
+#sessao p{
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#sessao button{
+    padding: 20px;
+    border-radius: 50px;
+    border-style: solid;
+    color: purple;
+    border-color: goldenrod;
+    width: 20em;
+    cursor: pointer;
+    font-family: 'jjk';
+    font-size: 1.2rem;
+}
+
+#sessao button:hover{
+    background-color: goldenrod;
+    color: purple;
+}
+
+#assistir{
+    padding: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#assistir div p{
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+#assistir div button{
+    padding: 20px;
+    width: 20em;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    color: red;
+    font-family: 'jjk';
+    font-size: 1.2rem;
+}
+
+#assistir div img{
+    width: 20rem;
+    height: 20rem;
+    margin-top: -70;
+    margin-left: 70;
+}
