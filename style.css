@@ -11,7 +11,7 @@
 
 .header{
     padding: 2rem;
-    background-color: rgba(195,115,1,1);
+    background-color: rgb(2, 1, 39);
 }
 
 .menu{
@@ -30,13 +30,13 @@
 }
 
 .menu a:hover{
-    color: rgba(30,1,195,1);
+    color: red;
     transition: 0.9s;
 }
 
 #sessao{
     padding: 15rem;
-    background: linear-gradient(180deg, rgba(195,115,1,1) 0%, rgba(30,1,195,1) 100%);
+    background: linear-gradient(180deg, rgb(2, 1, 39) 0%, red 100%);
 }
 
 #sessao h2{
