@@ -144,7 +144,8 @@
 
 #container img{
     width: 45rem;
-    border-left: 50px;
+    margin-left: 50px;
+    text-align: center;
 }
 
 #container-fundo{
@@ -176,4 +177,34 @@
     text-align: center;
     margin-top: 2rem;
     font-weight: 800; /*Grosura da fonte*/
+}
+
+#footer-contatos{
+    padding: 2rem;
+    background-color: rgb(2, 1, 39);
+    color: white;
+    text-align: center;
+}
+
+#footer-contatos img{
+    width: 16rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+#footer-contatos div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-contatos a{
+    text-decoration: none;
+    color: white;
+    font-family: 'jjk';
+}
+
+#footer-contatos a:hover{
+    color: red;
+    transition: 0.9s;
+    cursor: pointer;
 }
